@@ -1,0 +1,10 @@
+/.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/vendor/
+.env
+node_modules/
+.npm
+.phpintel/
+package-lock.json

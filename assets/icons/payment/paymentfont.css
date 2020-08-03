@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'pf';
+  src: url('../icons/payment/paymentfont-webfont.eot');
+  src: url('../icons/payment/paymentfont-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../icons/payment/paymentfont-webfont.woff') format('woff2'),
+       url('../icons/payment/paymentfont-webfont.woff') format('woff'),
+       url('../icons/payment/paymentfont-webfont.ttf') format('truetype'),
+       url('../icons/payment/paymentfont-webfont.svg#paymentfont-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-pf-']:before,
+[class*=' icon-pf-']:before {
+  font-family: 'pf';
+}
+
+.icon-pf-amazon:before {
+  content: "\f000";
+}
+.icon-pf-american-express:before {
+  content: "\f001";
+}
+.icon-pf-american-express-alt:before {
+  content: "\f002";
+}
+.icon-pf-atm:before {
+  content: "\f003";
+}
+.icon-pf-bankomat:before {
+  content: "\f004";
+}
+.icon-pf-bank-transfer:before {
+  content: "\f005";
+}
+.icon-pf-bitcoin:before {
+  content: "\f006";
+}
+.icon-pf-bitcoin-sign:before {
+  content: "\f007";
+}
+.icon-pf-braintree:before {
+  content: "\f008";
+}
+.icon-pf-btc:before {
+  content: "\f009";
+}
+.icon-pf-card:before {
+  content: "\f00a";
+}
+.icon-pf-carta-si:before {
+  content: "\f00b";
+}
+.icon-pf-cash:before {
+  content: "\f00c";
+}
+.icon-pf-cash-on-delivery:before {
+  content: "\f00d";
+}
+.icon-pf-cb:before {
+  content: "\f00e";
+}
+.icon-pf-cirrus:before {
+  content: "\f00f";
+}
+.icon-pf-cirrus-alt:before {
+  content: "\f010";
+}
+.icon-pf-clickandbuy:before {
+  content: "\f011";
+}
+.icon-pf-credit-card:before {
+  content: "\f012";
+}
+.icon-pf-diners:before {
+  content: "\f013";
+}
+.icon-pf-discover:before {
+  content: "\f014";
+}
+.icon-pf-ec:before {
+  content: "\f015";
+}
+.icon-pf-eps:before {
+  content: "\f016";
+}
+.icon-pf-eur:before {
+  content: "\f017";
+}
+.icon-pf-facture:before {
+  content: "\f018";
+}
+.icon-pf-fattura:before {
+  content: "\f019";
+}
+.icon-pf-flattr:before {
+  content: "\f01a";
+}
+.icon-pf-giropay:before {
+  content: "\f01b";
+}
+.icon-pf-google-wallet:before {
+  content: "\f01c";
+}
+.icon-pf-google-wallet-alt:before {
+  content: "\f01d";
+}
+.icon-pf-gpb:before {
+  content: "\f01e";
+}
+.icon-pf-gratipay:before {
+  content: "\f01f";
+}
+.icon-pf-ideal:before {
+  content: "\f020";
+}
+.icon-pf-ils:before {
+  content: "\f021";
+}
+.icon-pf-inr:before {
+  content: "\f022";
+}
+.icon-pf-invoice:before {
+  content: "\f023";
+}
+.icon-pf-invoice-sign:before {
+  content: "\f024";
+}
+.icon-pf-invoice-sign-alt:before {
+  content: "\f025";
+}
+.icon-pf-invoice-sign-alt-o:before {
+  content: "\f026";
+}
+.icon-pf-invoice-sign-o:before {
+  content: "\f027";
+}
+.icon-pf-jcb:before {
+  content: "\f028";
+}
+.icon-pf-jpy:before {
+  content: "\f029";
+}
+.icon-pf-krw:before {
+  content: "\f02a";
+}
+.icon-pf-maestro:before {
+  content: "\f02b";
+}
+.icon-pf-maestro-alt:before {
+  content: "\f02c";
+}
+.icon-pf-mastercard:before {
+  content: "\f02d";
+}
+.icon-pf-mastercard-alt:before {
+  content: "\f02e";
+}
+.icon-pf-mastercard-securecode:before {
+  content: "\f02f";
+}
+.icon-pf-ogone:before {
+  content: "\f030";
+}
+.icon-pf-paybox:before {
+  content: "\f031";
+}
+.icon-pf-paylife:before {
+  content: "\f032";
+}
+.icon-pf-paypal:before {
+  content: "\f033";
+}
+.icon-pf-paypal-alt:before {
+  content: "\f034";
+}
+.icon-pf-paysafecard:before {
+  content: "\f035";
+}
+.icon-pf-postepay:before {
+  content: "\f036";
+}
+.icon-pf-quick:before {
+  content: "\f037";
+}
+.icon-pf-rechnung:before {
+  content: "\f038";
+}
+.icon-pf-ripple:before {
+  content: "\f039";
+}
+.icon-pf-rub:before {
+  content: "\f03a";
+}
+.icon-pf-skrill:before {
+  content: "\f03b";
+}
+.icon-pf-sofort:before {
+  content: "\f03c";
+}
+.icon-pf-square:before {
+  content: "\f03d";
+}
+.icon-pf-stripe:before {
+  content: "\f03e";
+}
+.icon-pf-truste:before {
+  content: "\f03f";
+}
+.icon-pf-try:before {
+  content: "\f040";
+}
+.icon-pf-unionpay:before {
+  content: "\f041";
+}
+.icon-pf-usd:before {
+  content: "\f042";
+}
+.icon-pf-verified-by-visa:before {
+  content: "\f043";
+}
+.icon-pf-verisign:before {
+  content: "\f044";
+}
+.icon-pf-visa:before {
+  content: "\f045";
+}
+.icon-pf-visa-electron:before {
+  content: "\f046";
+}
+.icon-pf-western-union:before {
+  content: "\f047";
+}
+.icon-pf-western-union-alt:before {
+  content: "\f048";
+}
+.icon-pf-wirecard:before {
+  content: "\f049";
+}
+.icon-pf-sepa:before {
+  content: "\f04a";
+}
+.icon-pf-sepa-alt:before {
+  content: "\f04b";
+}
+.icon-pf-apple-pay:before {
+  content: "\f04c";
+}
+.icon-pf-interac:before {
+  content: "\f04d";
+}
+.icon-pf-paymill:before {
+  content: "\f04e";
+}
+.icon-pf-dankort:before {
+  content: "\f04f";
+}
+.icon-pf-bancontact-mister-cash:before {
+  content: "\f050";
+}
+.icon-pf-moip:before {
+  content: "\f051";
+}
+.icon-pf-pagseguro:before {
+  content: "\f052";
+}
+.icon-pf-cash-on-pickup:before {
+  content: "\f053";
+}
+.icon-pf-sage:before {
+  content: "\f054";
+}
+.icon-pf-elo:before {
+  content: "\f055";
+}
+.icon-pf-elo-alt:before {
+  content: "\f056";
+}
+.icon-pf-payu:before {
+  content: "\f057";
+}
+.icon-pf-mercado-pago:before {
+  content: "\f058";
+}
+.icon-pf-mercado-pago-sign:before {
+  content: "\f059";
+}
+.icon-pf-payshop:before {
+  content: "\f05a";
+}
+.icon-pf-multibanco:before {
+  content: "\f05b";
+}
+.icon-pf-gratipay-sign:before {
+  content: "\f05c";
+}
+.icon-pf-six:before {
+  content: "\f05d";
+}
+.icon-pf-cashcloud:before {
+  content: "\f05e";
+}
+.icon-pf-interac-alt:before {
+  content: "\f05f";
+}
+.icon-pf-klarna:before {
+  content: "\f060";
+}
+.icon-pf-bitpay:before {
+  content: "\f061";
+}
+.icon-pf-venmo:before {
+  content: "\f062";
+}
+.icon-pf-visa-debit:before {
+  content: "\f063";
+}
+.icon-pf-alipay:before {
+  content: "\f064";
+}
+.icon-pf-diners-alt:before {
+  content: "\f065";
+}
+.icon-pf-hipercard:before {
+  content: "\f066";
+}
+.icon-pf-skrill-alt:before {
+  content: "\f067";
+}
+.icon-pf-shopify:before {
+  content: "\f068";
+}
+.icon-pf-direct-debit:before {
+  content: "\f069";
+}
+.icon-pf-sodexo:before {
+  content: "\f06a";
+}
+.icon-pf-bpay:before {
+  content: "\f06b";
+}
+.icon-pf-contactless:before {
+  content: "\f06c";
+}
+.icon-pf-contactless-alt:before {
+  content: "\f06d";
+}
+.icon-pf-eth:before {
+  content: "\f06e";
+}
+.icon-pf-ltc:before {
+  content: "\f06f";
+}
+.icon-pf-visa-pay:before {
+  content: "\f070";
+}
+.icon-pf-wechat-pay:before {
+  content: "\f071";
+}
+.icon-pf-amazon-pay:before {
+  content: "\f072";
+}
+.icon-pf-amazon-pay-alt:before {
+  content: "\f073";
+}

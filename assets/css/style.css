@@ -1,0 +1,25 @@
+.table .btn{
+    margin-bottom: 4px;
+}
+
+.botao-sem-label {
+    margin-top: 20px;   
+}
+
+.error {
+    border-color: #f44336 !important;
+}
+
+.btn-menu-mobile {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.07);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+}
+
+
+.btn-menu-mobile > span {
+    font-size: 20px;
+}
+
+.btn-menu-mobile > span:before {
+    background: #000000 !important;
+}

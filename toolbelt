@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+require_once 'bootstrap/app.php';
+
+use Psy\Shell;
+use Psy\Configuration;
+
+$config = new Configuration([
+    'updateCheck' => 'never'
+]);
+
+$config->getPresenter()->addCasters([
+    'Illuminate\Support\Collection' => 'NPCore\Toolbelt\Casters::castCollection',
+    'Illuminate\Database\Eloquent\Model' => 'NPCore\Toolbelt\Casters::castModel'
+]);
+
+$shell = new Shell($config);
+try {
+    $shell->run();
+}catch (\Exception $e) {
+    //
+}
