@@ -109,7 +109,7 @@
                 <div class="sidebar-submenu">
 
                     <ul>
-                        <li><a href="{{ route('testimonials.fakes-all')}}"><span>Listar Todos os Depoimentos</span></a>
+                        <!-- <li><a href="{{ route('testimonials.fakes-all')}}"><span>Listar Todos os Depoimentos</span></a> -->
                         </li>
                         @role('testimonials_fake_create')
                         <li>

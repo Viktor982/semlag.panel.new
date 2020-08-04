@@ -87,8 +87,8 @@ $(document).ready(function() {
         path = path[path.length-1];
 
         if (path !== undefined) {
-            $("#sidebar-menu").find("a[href$='" + path + "']").addClass('active');
-            $("#sidebar-menu").find("a[href$='" + path + "']").parents().eq(3).superclick('show');
+            $("#sidebar-menu").find("a[href$='/" + path + "']").addClass('active');
+            $("#sidebar-menu").find("a[href$='/" + path + "']").parents().eq(3).superclick('show');
         }
 
 
