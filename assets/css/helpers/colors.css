@@ -96,7 +96,7 @@
 }
 .bg-twitter {
     color: #fff !important;
-    background: #3a92c8;
+    background: #1D609B;
 }
 .btn.bg-twitter:hover {
     background: #2b80b4;
@@ -353,7 +353,7 @@
 .bg-green {
     color: #fff;
     border-color: #1389eb;
-    background: #408bca;
+    background: #1D609B;
 }
 .label-success[href]:hover,
 .label-success[href]:focus,

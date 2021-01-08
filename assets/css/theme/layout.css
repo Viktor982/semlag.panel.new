@@ -18,6 +18,7 @@
 #header-logo .logo-content-big,
 .logo-content-small {
     background: url('/build/image-resources/logo-admin.png') left 50% no-repeat;
+    background-size: 100%;
     text-indent: -999em;
     position: absolute;
     height: 43px;

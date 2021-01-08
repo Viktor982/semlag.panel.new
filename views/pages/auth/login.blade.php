@@ -34,10 +34,10 @@
             @if(isset($_GET['redirect']))
                 <input type="hidden" name="redirect" value="{{ $_GET['redirect'] }}">
             @endif
-            <h3 class="text-center pad25B font-gray text-transform-upr font-size-23">GoGaming Admin<span class="opacity-80">v1.0</span></h3>
+            <h3 class="text-center pad25B font-gray text-transform-upr font-size-23">SemLag Admin<span class="opacity-80">v1.0</span></h3>
             <div id="login-form" class="content-box bg-default">
-                <div class="content-box-wrapper pad20A">
-                    <img class="mrg25B center-margin display-block" src="/build/images/logo.png" alt="">
+                <div class="content-box-wrapper pad20A" style="background-color:#1D609B;">
+                    <img class="mrg25B center-margin display-block" style="width:100%;" src="/build/images/logo.png" alt="">
                     <div class="form-group">
                         <div class="input-group">
                             <span class="input-group-addon addon-inside bg-gray">
